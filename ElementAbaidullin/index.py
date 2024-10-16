@@ -9,7 +9,12 @@ class ElementAbaidullin():
         self.name = name
         self.symbol = symbol
         self.number = number
+
+    def dump(self):
+        print(f'name: {self.name} \nsymbol: {self.symbol} \nnumber: {self.number}')
+
         
 
 object = ElementAbaidullin('Ruslan', 'H', 1)
+object.dump()
 
