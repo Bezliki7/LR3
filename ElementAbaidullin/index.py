@@ -3,10 +3,19 @@ class ElementAbaidullin():
         self._name = name
         self._symbol = symbol
         self._number = number
-        self.name = name
-        self.symbol = symbol
-        self.number = number
 
+    @property
+    def name(self):
+        return self._name
+
+    @property
+    def symbol(self):
+        return self._symbol
+
+    @property
+    def number(self):
+        return self._number
+    
     def dump(self):
         print(f'name: {self._name} \nsymbol: {self._symbol} \nnumber: {self._number}')
 
