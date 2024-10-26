@@ -21,7 +21,7 @@ class ElementBaulybaev():
         print(f'name: {self.name} \nsymbol: {self.symbol} \nnumber: {self.number}')
         
 
-object = ElementBaulybaev('Dinar', 'H', 1)
+object = ElementBaulybaev('Dinar', 'Li', 3)
 object.dump()
 
 print(object.name)
